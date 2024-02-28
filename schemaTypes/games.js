@@ -6,12 +6,12 @@ export default {
   fields: [
     // alle datafeltene du skal ha i et dokument
     {
-      name: 'Name',
+      name: 'name',
       type: 'string',
       title: 'Name of game',
     },
     {
-      name: 'Year',
+      name: 'year',
       type: 'number',
       title: 'Year',
     },
