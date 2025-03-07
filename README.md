@@ -127,3 +127,12 @@ CORS (Cross-Origin Resource Sharing) er en sikkerhetsmekanisme i nettlesere som 
 For eksempel: Hvis din frontend kjører på http://localhost:3000, men prøver å hente data fra https://api.sanity.io, kan nettleseren blokkere forespørselen med en CORS-feilmelding.
 
 For å løse dette i Sanity kan du tillate forespørsler fra frontend-en ved å legge til din `http://localhost:????` i CORS-innstillingene `sanity.io/manage --> game-library --> API CORS-origin`
+
+## Veien videre
+
+- [Se på GROC og queries med Sanity Studio Vision. ](https://www.sanity.io/learn/course/day-one-with-sanity-studio/a-taste-of-groq) Queries fungerer likt som SQL-spørringer.
+- [Prøv å legg til bilder!](https://www.sanity.io/docs/presenting-images) `image` er en egen type, men det må pakkes ut på en spesiell måte på frontend-en.
+- Kjør Sanity med Svelte, React, Next front end (google it)
+- Se på [Environment variabler](https://www.sanity.io/docs/environment-variables)
+
+**Gå inn på [Sanity Learn](https://www.sanity.io/learn/course?audience=developers) for mange flere kurs og tutorals!**
